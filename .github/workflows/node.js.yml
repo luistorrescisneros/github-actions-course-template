@@ -31,7 +31,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [10.x]
         os: [ubuntu-latest, windows-2016]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
